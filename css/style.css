@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.container{
+    width:50%;
+    margin:auto;
+    background-color:white;
+   
+  
+   
+}
+.container2{
+    margin:auto;
+    
+    position: absolute;
+    top: 90px;
+    left:400px;
+    border-radius: 10%;
+    width:80%;
+    position: ;
+
+}
+.con3{
+    position: absolute;
+    top:180px;
+    left:95px;
+    border:8px solid white;
+    border-radius: 50%;
+}
+.profile{
+    height:200px;
+    width:200px;
+    border-radius:50%; 
+}
+.cover{
+    height:300px;
+    width:400px;
+    border-radius:5%; 
+}
+#camera{
+    position: absolute;
+    top:255px;
+    left:355px;
+    
+    border:solid 10px white;
+    border-radius: 50%;
+    background-color:white;
+    font-size: 15px;
+    opacity: 0.9;
+}
+#camera:hover{
+    opacity:1;
+}
+#camera2{
+    position: absolute;
+    top:155px;
+    left:150px;
+    background-color:rgb(214, 205, 205);
+    border:solid 10px rgb(192, 184, 184);
+    border-radius: 50%;
+}
+.font{
+    position: ;
+}
+.font ul{
+    list-style-type:none;
+}
+.font ul li{
+    display:inline-block;
+    font-size: large;
+
+}
+#user{
+    box-shadow: 4px 4px 4px 4px gray;
+    border-radius: 20%;
+    background-color:rgb(223, 211, 211) ;
+}
+
+.font ul li a{
+    
+    color:black;
+    padding:20px 30px;
+    font-size: 40px;
+    opacity:0.8;
+    display: block;
+    
+}
+.font ul li a:hover{
+    background-color: rgb(223, 211, 211);
+    padding:20px 30px;
+    opacity: 1;
+    border-radius: 20%;
+    transition: 0.3;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+#name{
+    position: absolute;
+    bottom:-120px;
+    left:80px;
+}
+#bio{
+    position: absolute;
+    text-align: center;
+    bottom:-155px;
+    left:70px;
+}
